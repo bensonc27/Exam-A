@@ -23019,8 +23019,8 @@ const goldset = data.filter(
 console.log(goldset);
 
 function filterItems(data) {
-  if (data.filter((pokemon) => pokemon.types.includes("fire")) console.log(pokemon.name));
-    
+  if (data.filter((pokemon) => pokemon.types.includes("fire")))
+    console.log(pokemon.name);
 }
 
 filterItems();
